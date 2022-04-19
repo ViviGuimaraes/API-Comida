@@ -1,0 +1,58 @@
+.galeria{
+    width: 100%;
+    margin-top:60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 40px;
+
+   
+    /* background-color: #871919; */;
+}
+@media(max-width:720px){
+    .galeria{
+        padding: 0 10px;
+        margin: 6px;
+    }
+}
+
+/* __________________________________ */
+
+.card-galeria{
+    height: 200px;
+    flex-grow: 1;
+    transition: all 0.5s;
+    position: relative;
+
+
+}
+.card-imagem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.card-galeria:hover{
+    transform: scale(1.2);
+}
+
+.card-informacoes{
+    display: flex;
+   
+    position: absolute;
+    height: 45px;
+    width: 100%;
+    transition: all 1.0s;
+    opacity: 0;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: 'Corben', cursiva;
+}
+
+.card-galeria:hover .card-informacoes {
+    transform: translateY(-45px);
+    opacity: 1;
+}
+.card-acao{
+    display: flex;
+}

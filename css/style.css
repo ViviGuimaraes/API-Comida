@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgb(255, 207, 207); */
+   
+}
+
+.pesquisar{
+    width: 100%;
+    height: 240px;
+    background: transparent url("../imgs/Frame\ 2\ \(1\).png")  ;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.pesquisar a {
+    color: #ffffff;
+    font-family: 'Corben', cursiva;
+    font-size: 55px;
+    
+    
+    
+    
+}
+.pesquisar input{
+    width: 800px;
+    height: 50px;
+    border-radius: 40px;
+    border:#000000 solid 2px;
+    font-size: 25px;
+  
+    
+}
+.input-container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#lupa{
+    margin:0px 0px 0px 0px;
+    cursor:pointer;
+    position: absolute;
+    right: 30px; 
+    padding-top: 5px; 
+    font-size: 2rem;  
+ }
+ 
+
+
+
+
